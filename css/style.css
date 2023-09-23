@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .element-with-padding {
-  padding: 70px; /* Adds 10px of space inside the element */
+  padding: 90px;
 }
 
 /* Larger image for screens wider than 768px (Bootstrap's medium breakpoint) */
@@ -2275,7 +2275,7 @@ fadeIn {  from {
 
 .float{
   position:fixed;
-  bottom:20px;
+  bottom:0px;
   text-align:center;
   width: 100%;
   z-index: 100;
@@ -2286,7 +2286,7 @@ fadeIn {  from {
   top: 0;
   z-index: 100;
   margin-right: -320px;
-  margin-top: -11px;
+  margin-top: -15px;
   width: 30px;
   height: 30px;
   background: #ffffff;
