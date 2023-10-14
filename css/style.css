@@ -2385,12 +2385,12 @@ fadeIn {  from {
 .couple-wrap {
   font-family: Arial, sans-serif;
   font-size: 16px;
-  color: #333; /* Dark gray text color */
+  color: #333; 
 }
 
 h2 {
   font-size: 24px;
-  color: #555; /* Slightly darker gray for headings */
+  color: #555;
 }
 
 ul {
@@ -2404,13 +2404,13 @@ li {
 
 strong {
   font-weight: bold;
-  color: #007BFF; /* Blue for strong elements */
+  color: #007BFF;
 }
 
 /* Media query for responsiveness on smaller screens */
 @media (max-width: 767px) {
   .couple-wrap {
-      font-size: 14px; /* Smaller font size for mobile */
+      font-size: 14px;
   }
 
   h2 {
@@ -2430,4 +2430,26 @@ strong {
   animation: pulsate 2s infinite;
 }
 
-/*# sourceMappingURL=style.css.map */
+/* para mag swivel ang logo*/
+
+@keyframes swivel {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.couple-main {
+  animation: swivel 3s linear infinite;
+}
